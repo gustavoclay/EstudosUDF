@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--fonte--><link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+</head>
+<body>
+	<div id="header">
+		<img src="">
+	</div>
+	<div id="formulario">
+	<form action="" method="">
+		<label for="n">Nome:</label>
+		<input type="text" name="nome" placeholder="Digite aqui seu nome" id="n">
+		<br><br>
+		<label for="e">Email:</label>
+		<input type="email" name="email" placeholder="Digite seu email aqui" id="e" required="required">
+		<br><br>
+		<label for="d">Data de Nascimento:</label>
+		<input type="date" name="data" id="d">
+		<br><br>
+		<label for="i">Idade:</label>
+		<input type="number" name="idade" id="i" min="1" max="120">
+		<br><br>
+		<label for="a">Arquivo:</label>
+		<input type="file" name="arquivo" id="a">
+		<br><br>
+		Sexo:
+		<label for="ma"></label>
+		<input type="radio" name="sexo" value="masculino" id="m">Masculino
+		<input type="radio" name="sexo" value="feminino" id="f">Feminino
+		<br><br>
+		Esportes:
+		<input type="checkbox" name="esportes" value="volei" id="volei">Volei
+		<input type="checkbox" name="esportes" value="basquete" id="volei">Basquete
+		<input type="checkbox" name="esportes" value="futebol" id="volei">Futebol
+		<input type="checkbox" name="esportes" value="corrida" id="volei">Corrida
+		</label>
+		<br><br>
+		<label id="uf">UF</label>
+		<select name="uf" id="uf">
+			<option value="DF">DF</option>
+			<option value="GO">GO</option>
+			<option value="MA">MA</option>
+			<option value="PI">PI</option>			
+		</select>
+		<br><br>
+		<label for="m">Mensagem: </label>
+		<textarea name="mensagem" id="m" cols="40" rows="5"></textarea>
+		<br><br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Reset</button>
+	</form>
+	</div>
+</body>
+</html>

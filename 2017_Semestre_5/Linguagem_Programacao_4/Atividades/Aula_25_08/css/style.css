@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 14px; /* comentario */
+	margin: 0;
+}
+
+nav{
+	background-color: #2978BE;
+	line-height: 60px;
+	text-align: right;
+	width: 100%;
+	top: 0px;
+}
+
+header {
+	background-image: url(../images/c.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;	
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu a:link, a:visited{
+	color: #C19C3A;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+}
+
+#menu a:hover, a:active{
+	color: #BFA587;
+	background-color: #753116;
+}
+
+#home { 
+	background: center top url(../images/c.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#sobre {
+	background-color: #8B7C87 ;
+	height: 300px;
+	padding: 100px 50px;
+}
+
+#sobre img{
+	width: 400px;
+	margin-left: 30px;
+	border-radius: 10px;
+	border: 2px solid #FFF;
+	box-shadow: 5px 5px 10px #000;
+
+}
+
+#sobre p{
+	text-align: justify;
+
+}
+
+#galeria{
+	background-color: #06040D;
+	height: 600px;
+	padding: 100px 50px;
+	text-align: center;
+}
+
+#galeria img{
+	width: 300px;
+	margin: 20px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 10px #131240;
+}
+
+#contatos {
+	margin-top: 40px;
+	width: 100%;
+	height: ;
+
+}
+
+#contatos h1{
+	text-align: center;
+	text-size: 16px;
+
+}
+
+#contatos form{
+	margin-top: 20px;
+	width: 100%;
+	height: ;
+	text-align: center
+}

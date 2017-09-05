@@ -1,0 +1,96 @@
+<html>
+   <head>
+      <title>Modelo convertido XSL</title>
+   </head>
+   <body>
+      <P ALIGN="center"
+         style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;">
+ESQUEMA LOGICO
+</P>
+      <table width="80%"
+             align="center"
+             border="0"
+             cellpadding="0"
+             cellspacing="2"
+             style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;font-weight: bold;">
+         <tr>
+            <td>CAMPUS (<span style="font-weight:normal;">nome</span>, <span style="font-weight:normal;">endereco</span>, <span style="font-weight:normal;text-decoration:underline">codCampus</span>)</td>
+         </tr>
+         <tr>
+            <td>PESSOA+RG (<span style="font-weight:normal;">telefone</span>, <span style="font-weight:normal;">email</span>, <span style="font-weight:normal;">perfil</span>, <span style="font-weight:normal;">naturalidade</span>, <span style="font-weight:normal;">nacionalidade</span>, <span style="font-weight:normal;">senha</span>, <span style="font-weight:normal;text-decoration:underline">CPF</span>, <span style="font-weight:normal;">dataNascimento</span>, <span style="font-weight:normal;">nome</span>, <span style="font-weight:normal;">usuario</span>, <span style="font-weight:normal;">rg</span>, <span style="font-weight:normal;">estadoExpedidor</span>, <span style="font-weight:normal;">orgaoExpedidor</span>)</td>
+         </tr>
+         <tr>
+            <td>ALUNO (<span style="font-weight:normal;text-decoration:underline">RM</span>, <span style="font-weight:normal;">infoComplementar</span>, <span style="font-weight:normal;text-decoration:overline">CPF</span>, <span style="font-weight:normal;text-decoration:overline">codBolsa</span>, <span style="font-weight:normal;text-decoration:overline">codTurma</span>)</td>
+         </tr>
+         <tr>
+            <td>BOLSA (<span style="font-weight:normal;text-decoration:underline">codBolsa</span>, <span style="font-weight:normal;">nome</span>)</td>
+         </tr>
+         <tr>
+            <td>ENDERECO (<span style="font-weight:normal;">cidade</span>, <span style="font-weight:normal;">cep</span>, <span style="font-weight:normal;">logadouro</span>, <span style="font-weight:normal;">estado</span>, <span style="font-weight:normal;">bairro</span>)</td>
+         </tr>
+         <tr>
+            <td>Publica (<span style="font-weight:normal;text-decoration:overline">RM</span>, <span style="font-weight:normal;text-decoration:overline">codPubli</span>)</td>
+         </tr>
+         <tr>
+            <td>PUBLICACAO (<span style="font-weight:normal;text-decoration:underline">codPubli</span>, <span style="font-weight:normal;">titulo</span>, <span style="font-weight:normal;">ano</span>, <span style="font-weight:normal;">mes</span>)</td>
+         </tr>
+         <tr>
+            <td>ARTIGO (<span style="font-weight:normal;">qtdPaginas</span>, <span style="font-weight:normal;">volume</span>, <span style="font-weight:normal;text-decoration:overline">codPubli</span>)</td>
+         </tr>
+         <tr>
+            <td>TCC (<span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;text-decoration:overline">codPubli</span>)</td>
+         </tr>
+         <tr>
+            <td>TURMA (<span style="font-weight:normal;">matutino</span>, <span style="font-weight:normal;">vespertino</span>, <span style="font-weight:normal;">noturno</span>, <span style="font-weight:normal;text-decoration:underline">codTurma</span>)</td>
+         </tr>
+         <tr>
+            <td>Inscri��o (<span style="font-weight:normal;text-decoration:overline">codCurso</span>, <span style="font-weight:normal;text-decoration:overline">RM</span>)</td>
+         </tr>
+         <tr>
+            <td>CURSO (<span style="font-weight:normal;text-decoration:underline">codCurso</span>, <span style="font-weight:normal;">nomeCurso</span>)</td>
+         </tr>
+         <tr>
+            <td>POS_GRADUACAO (<span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;text-decoration:overline">codCurso</span>, <span style="font-weight:normal;text-decoration:overline">codArea</span>)</td>
+         </tr>
+         <tr>
+            <td>AREA (<span style="font-weight:normal;text-decoration:underline">codArea</span>, <span style="font-weight:normal;">descricao</span>)</td>
+         </tr>
+         <tr>
+            <td>DOCUMENTO (<span style="font-weight:normal;text-decoration:underline">codDocumento</span>, <span style="font-weight:normal;">tipo</span>, <span style="font-weight:normal;">dataSolicita</span>, <span style="font-weight:normal;text-decoration:overline">RM</span>)</td>
+         </tr>
+         <tr>
+            <td>DISCLIPLINA (<span style="font-weight:normal;text-decoration:underline">codDisciplina</span>, <span style="font-weight:normal;">nomeDisciplina</span>, <span style="font-weight:normal;text-decoration:overline">codLocal</span>)</td>
+         </tr>
+         <tr>
+            <td>possui (<span style="font-weight:normal;text-decoration:overline">codCurso</span>, <span style="font-weight:normal;text-decoration:overline">codDisciplina</span>)</td>
+         </tr>
+         <tr>
+            <td>SALA (<span style="font-weight:normal;">qtdMesas</span>, <span style="font-weight:normal;">qtdCadeiras</span>, <span style="font-weight:normal;text-decoration:overline">codLocal</span>)</td>
+         </tr>
+         <tr>
+            <td>LOCAL (<span style="font-weight:normal;text-decoration:underline">codLocal</span>, <span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;">nomeLocal</span>, <span style="font-weight:normal;text-decoration:overline">codCampus</span>)</td>
+         </tr>
+         <tr>
+            <td>LABORATORIO (<span style="font-weight:normal;">qtdComputadores</span>, <span style="font-weight:normal;">qtdMesas</span>, <span style="font-weight:normal;">qtdCadeiras</span>, <span style="font-weight:normal;text-decoration:overline">codLocal</span>)</td>
+         </tr>
+         <tr>
+            <td>Ministra (<span style="font-weight:normal;text-decoration:overline">matricula</span>, <span style="font-weight:normal;text-decoration:overline">codDisciplina</span>)</td>
+         </tr>
+         <tr>
+            <td>FUNCIONARIO (<span style="font-weight:normal;text-decoration:underline">codFuncionario</span>, <span style="font-weight:normal;">dataContratacao</span>, <span style="font-weight:normal;">cargo</span>, <span style="font-weight:normal;text-decoration:overline">CPF</span>)</td>
+         </tr>
+         <tr>
+            <td>PROFESSOR (<span style="font-weight:normal;">exclusiva</span>, <span style="font-weight:normal;">parcial</span>, <span style="font-weight:normal;text-decoration:underline">matricula</span>, <span style="font-weight:normal;text-decoration:overline">codFuncionario</span>)</td>
+         </tr>
+         <tr>
+            <td>GRADUACAO (<span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;text-decoration:overline">codCurso</span>)</td>
+         </tr>
+         <tr>
+            <td>COLABORADOR (<span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;">funcao</span>, <span style="font-weight:normal;text-decoration:overline">codFuncionario</span>, <span style="font-weight:normal;text-decoration:overline">codDepartamento</span>)</td>
+         </tr>
+         <tr>
+            <td>DEPARTAMENTO+COORDENADOR (<span style="font-weight:normal;text-decoration:underline">codDepartamento</span>, <span style="font-weight:normal;">nomeDepartamento</span>, <span style="font-weight:normal;">descricao</span>, <span style="font-weight:normal;">infoComplementar</span>, <span style="font-weight:normal;text-decoration:overline">codFuncionario</span>)</td>
+         </tr>
+      </table>
+   </body>
+</html>

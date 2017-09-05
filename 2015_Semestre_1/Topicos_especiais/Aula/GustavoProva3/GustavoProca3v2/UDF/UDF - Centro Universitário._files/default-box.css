@@ -1,0 +1,763 @@
+/* CSS Document */
+#container-box{
+	min-width:1039px;
+}
+
+#container-box h2{
+	margin-bottom:2px solid #ccc;
+	padding-bottom:5px;
+}
+
+
+#titlediv #title {
+	background-color: #fff;
+}
+
+#titlediv #title {
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	width: 100%;
+	outline: 0;
+}
+
+.f-left{
+	float:left;
+	margin-right:20px;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	background: #f3f3f3;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4));
+	background-image: -webkit-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image: -moz-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image: -o-linear-gradient(top,#fefefe,#f4f4f4);
+	background-image: linear-gradient(to bottom,#fefefe,#f4f4f4);
+	border-color: #bbb;
+	color: #333;
+	text-shadow: 0 1px 0 #fff;
+	
+}
+
+
+.wp-media-buttons .add_media span.wp-media-buttons-icon {
+	background: url(img/media-button.png) no-repeat top left;
+}
+
+.wp-media-buttons span.wp-media-buttons-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-top;
+	margin: 0 2px;
+}
+
+#container-box{}
+
+#container-box .box{
+	/*padding:20px 10px;*/
+}
+
+#container-box .box div .img{
+	float:left;
+	width:auto;
+}
+
+#container-box .box div .img .boxIMG{
+	width:268px;
+	min-height:150px;
+	height: auto;
+	padding:15px;
+	border-color: #dfdfdf;
+	background: #fff;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: 0 0 7px #ddd;
+
+}
+
+#container-box h3.hndle{
+	font-size: 15px;
+	font-weight: normal;
+	padding: 7px 10px;
+	margin: 0;
+	line-height: 1;
+	border-bottom-color: #dfdfdf;
+	text-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+	background: #f1f1f1;
+	background-image: -webkit-gradient(linear,left bottom,left top,from(#ececec),to(#f9f9f9));
+	background-image: -webkit-linear-gradient(bottom,#ececec,#f9f9f9);
+	background-image: -moz-linear-gradient(bottom,#ececec,#f9f9f9);
+	background-image: -o-linear-gradient(bottom,#ececec,#f9f9f9);
+	background-image: linear-gradient(to top,#ececec,#f9f9f9);	
+}
+
+#container-box .box div .img .boxIMG p{
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #dfdfdf;
+	margin: 70px 0px 0 0px;
+	padding-bottom:	5px;
+	color:#333;
+}
+
+#container-box .box div .img ul li{
+	float:left;
+	margin-right: 10px;
+}
+
+#container-box .box div .txtBox{
+	float:left;
+	margin-left:20px;
+	width:700px;
+}
+
+.clear{
+	clear:both;
+}
+
+#container-box .box label{
+	display: block;
+	margin-bottom: 11px;
+	margin-left: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#container-box .box input{
+	width:100%;
+}
+
+#container-box .box textarea{
+	width:100%;
+	min-height:100px;
+}
+
+#container-box .box input, #container-box .box textarea{
+	padding:7px 10px;
+}
+
+
+/*FORMULARIO ADD CURSO*/
+
+#container-box form#formBox label{
+	float: left;	
+	width: 120px;
+}
+
+#container-box form#formBox input{
+	width: 350px;
+	padding-left: 10px;
+}
+
+#container-box form#formBox textarea{
+	width: 350px;
+	height: 100px;
+	padding-left: 10px;
+}
+
+#container-box form#formBox input.nomeCurso{
+	width: 1210px;
+}
+
+#container-box form#formBox input.duracao{
+	float: left;
+	width: 130px;
+}
+
+#container-box form#formBox input.valor{	width: 130px;}
+
+#container-box form#formBox label.val{
+	width: 50px;
+	margin-left: 37px;
+}
+
+
+#container-box form#formBox textarea.informacao{
+	float:left;	
+	margin-right: 25px;
+} 
+
+#container-box form#formBox textarea.diferenciais{
+	float:left;
+	margin-right: 25px;	
+}
+
+#container-box form#formBox #wp-content-media-buttons{
+	float: none;
+}
+
+#container-box form#formBox #periodo{
+	width: 101px;
+}
+
+#container-box form#formBox input.button{
+	width:55px;
+}
+
+#container #content #texto #box19 div.linha1 a {
+	text-decoration:none;
+	color: #0b4079;
+	font-weight: bold;
+	font-size: 14PX;	
+}
+
+#container #content #texto #box19 div.linha1 a:hover{
+	text-decoration:underline;	
+}
+
+#container #content #texto #box23 div.linha1 a {
+	text-decoration:none;
+	color: #0b4079;
+	font-weight: bold;
+	font-size: 14PX;	
+}
+
+#container #content #texto #box23 div.linha1 a:hover{
+	text-decoration:underline;	
+}
+
+
+/* ADD Cursos */
+
+.min{
+	width:80px;
+}
+
+#container-box form#addCursos label{
+	width:115px;
+	display:inline-table;
+	cursor:text;
+}
+
+#container-box form#addCursos textarea{
+	width: 330px;
+	height: 100px;
+}
+
+#container-box form#addCursos input.link{
+		width: 330px;
+}
+
+#container-box form#addPergunta textarea{
+	width: 330px;
+	height: 100px;
+}
+
+
+#container-box form#addGlossario textarea {
+width: 330px;
+height: 100px;
+}
+
+#container-box form#addGlossario label {
+	float: left;
+}
+
+#container-box form#addProfessor textarea{
+	width: 330px;
+	height: 100px;
+}
+
+#container-box form#addProfessor input.email{
+	border: 1px solid #dfdfdf;
+	width: 325px;	
+}
+
+#container-box form#addProfessor input.atendimento{
+	border:1px solid #dfdfdf;
+	width:250px;
+}
+
+#container #content #boxMedia{
+	width: 680px;
+	height: 380px;	
+	border:15px solid #f3f3f3;
+	margin-bottom: 45px;
+	float: left;
+}
+
+#container #content.curso #boxMedia{
+	width: 920px;
+	height: 380px;	
+}
+
+#container #content #boxMedia{
+	margin-left: 5px;	
+}
+
+#container #content #boxMedia #tituloMedia{
+	padding-bottom: 2px;
+}
+
+#container #content.curso #boxMedia #tituloMedia{
+	width:875px;
+}
+
+#container #content #boxMedia #tituloMedia div.linha1 p strong{
+	width: 585px;	
+	color:#0B3F79 !important;
+	font-size: 19px !important;
+	text-transform: uppercase;
+}
+
+#container #content #boxMedia #txtMedia{
+	padding: 7px 0px 38px;
+}
+
+#container #content #boxMedia #txtMedia div.linha2{
+	width: 585px;	
+}
+
+#container #content.curso #boxMedia #txtMedia div.linha2{
+	width:875px;	
+}
+
+#container #content #boxMedia #txtMedia div.linha2 p{
+	text-align:left;	
+}
+
+#container #content #boxMedia #txtMedia div.linha3{}
+
+#container #content #boxMedia div.media iframe{
+	margin-right:10px;
+	width: 180px;
+	height: 115px;
+}
+
+#container #content #boxMedia #botoes a.prev{
+	position: absolute;
+	z-index: 9999;
+	margin-top: 145px;
+	margin-left: -15px;
+}
+
+#container #content #boxMedia #botoes a.next{
+	position: absolute;
+	z-index: 9999;
+	margin-top: 150px;
+	margin-left: 644px;
+}
+
+#container-box form#addCursos label.op {
+	width:115px;
+}
+
+#container #content ul.cursos{
+	margin-top:10px;	
+}
+
+#container #content ul.cursos li{
+	list-style:none;	
+	font-size: 14px;
+	padding: 2px;
+}
+
+#container #content div.infCurso{
+	margin-top:28px;	
+}
+
+#container #content div.modalidade, #container #content div.duracao{
+	margin-top: 26px;
+}
+
+#container #content div.modalidade ul{
+	float: left;
+	width: 315px;
+}
+
+#container #content div.modalidade li{
+	list-style:none;
+	font-size: 14px;
+	padding: 2px;
+}
+
+#container #content div.duracao ul{
+	float: left;
+	width: 237px;
+	min-height: 280px;
+}
+
+#container #content div.duracao li{
+	list-style:none;
+	font-size: 14px;
+	padding: 2px;
+}
+
+#container #content div.area{
+	margin-top: 26px;
+	width: 950px;
+}
+
+#container #content div.area ul{
+	float: left;
+	width: 309px;
+}
+
+#container #content div.area ul.area1{
+	width: 255px;
+}
+
+#container #content div.area ul.area2{
+	width: 225px;
+}
+
+#container #content div.area ul.area4{
+	width: 270px;
+}
+
+#container #content div.area ul.area5{
+	width: 200px;
+}
+
+#container #content.pg205 div.area{
+	width:730px;
+}
+
+#container #content.pg205 div.area ul{
+	margin-right: 45px;
+}
+
+#container #content.pg205 div.area ul.area49{
+	margin-top: 25px;
+}
+
+#container #content.pg205 div.area ul.area47{
+	margin-top:-20px;	
+}
+
+#container #content div.area li{
+	list-style:none;
+	font-size: 14px;
+	padding: 2px;
+}
+
+#container #content #noticiaCurso div.conteudoNoticia div.blog-post-info-date{
+	border-bottom: 1px dotted #cccccc;
+	padding-bottom: 5px;	
+	float: left;
+}
+
+#container #content #noticiaCurso div.conteudoNoticia h2.post-title{
+	padding: 10px 0px 0px;
+	float:left;
+	height: 80px;
+}
+
+#container #content #noticiaCurso div.conteudoNoticia h2.post-title a{
+	text-decoration: none;
+	color: #3E9DED;
+		
+}
+
+#container #content #noticiaCurso div.conteudoNoticia div.post-content{
+	margin-top:10px;	
+	height:40px;
+}
+
+#container #content #texto #ultimosPosts div.post-entry-inner{
+	width: 225px;
+}
+
+
+#container #content #noticiaCurso div.conteudoNoticia div.leia{
+	float: left;
+	margin-top: 15px;
+}
+
+#container #content #portaria{
+	background:url(../../themes/switchblade-v1.3/images/gw/fundoredes.png) no-repeat;
+	padding: 8px;
+}
+
+#container #content #portaria p{
+	text-align: -webkit-center;
+	color: #0D4077 !important;
+	font-weight: bold;	
+	font-size:12px !important;
+}
+
+#container #content #td a{
+	text-decoration:none;
+	color:#767676;	
+}
+
+#container #content #td a:hover{
+	text-decoration:underline;	
+}
+
+#container #content p.atend input{
+	border: 1px solid #dfdfdf;
+	width: 250px;	
+}
+
+#container #content div.cursoDest{
+	float:left;	
+	margin: 7px 10px 0px 0px;
+}
+
+#container #content div.ultDest{
+	margin-right:0px !important;
+}
+
+#container #content div.cursoDest div.txt{
+	float: left;
+	width: 300px;
+	margin-top: 15px;
+}
+
+#container #content div.cursoDest div.titulo{
+	padding:31px 0px 0px;	
+	text-transform: uppercase;
+}
+
+#container #content div.cursoDest div.titulo p.borda{
+	border-bottom: 1px dotted #cccccc;
+	padding-bottom: 5px;	
+}
+
+#container #content div.cursoDest div.titulo a{
+	text-decoration:none;
+	color: #3E9DED;
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+#container #content #box32{
+	margin-top:15px;
+	border-bottom: 1px dotted #cccccc;	
+}
+
+#container #content #box42{
+	padding-top:40px;	
+	float:left;
+}
+
+#container #content #box32 div.linha1, #container #content #box42 div.linha1{
+	min-height: 50px;
+}
+
+#container #content #box42 div.box157 div.linha1{
+	height: 45px;	
+}
+
+#container #content #box32 #link a, #container #content #box42 #link a{
+	text-decoration:none;
+	color:#0b4079;	
+}
+
+
+#container #content #box32 div.lista, #container #content #box42 div.lista{
+	float:left;	
+	width:250px;
+	margin: 0px 100px 10px 0px;	
+}
+
+#container #content #box32 div.box121{
+	margin-right:0px !important;	
+}
+
+#container #content #box32 div.box123{
+	margin-right:0px !important;
+	margin-left:100px !important;	
+}
+
+
+#container #content div.lista #inscreva{
+	background:#6633CC;
+	width: 230px;
+	height: 45px;
+	margin-top: 26px;
+}
+
+#container #content div.lista #inscreva p{
+	padding: 14PX;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;	
+}
+
+#container #content div.lista #inscreva a{
+	
+}
+
+#container #content #box32 #linhaProcesso{
+	min-height: 2300px;
+}
+
+#container #content #box42 #linhaProcesso{
+	min-height: 215px;
+}
+
+#container #content #box33 #linhaProcesso, #container #content #box34 #linhaProcesso{
+	padding: 20px 0px;
+}
+
+
+#container #content #menuProcesso .ultima{
+	border-color:#6633CC;	
+}
+
+#container #content #menuProcesso .ultima a{
+	color: #6633CC;
+	font-weight: bold;
+}
+
+
+#container #boxAbre div.linha1 {
+		font-weight:bold;
+}
+
+#container #content #contDire{
+	float: left;
+	margin-left: 10px;
+	margin-top:-10px;
+}
+
+#container #content #contDire div.blocoDire h2.dep{
+	text-transform: uppercase;
+	color: #60A039;
+	font-size: 24px;
+}
+
+#container #content #contDire div.txtDire p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#container #content #contDire div.txtDire p.contCurriculo{
+	margin:20px 0px 12px;
+}
+
+#container #content #contDire div.blocoDire{
+	border-bottom: 1px dotted #cccccc;
+	padding: 30px 0px 54px;
+	width:710px;
+}
+
+#container #content #contDire div.diferenteDire{
+	padding-top: 65px;
+	padding-bottom: 34px;
+}
+
+#container #content #contDire div.blocoDire div.nomeDire h2{
+	text-transform: uppercase;
+	color: #0b4079 !important;
+	float: left;
+	font-size: 20px;
+}
+
+#container #content #contDire div.blocoDire div.dire p.titDire{
+	color: #0b4079;
+	font-weight:bold;
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+#container #content #contDire div.blocoDire div.dire div.txtDire p.titDire{
+	margin-top: 22px;
+}
+
+#container #content #contDire div.blocoDire div.dire a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #61a139;
+	font-weight: bold;
+}
+
+#container #content #contDire div.blocoDire div.dire div.mediaDire{
+	margin-top: 15px;
+}
+
+#container #content #contDire div.ftDire{
+	float:left;	
+}
+
+#container #content #contDire div.ftDire img{
+	width:355px;
+	height:217px;	
+}
+
+#container #content #contDire div.videoDire{
+	float:left;	
+}
+
+#container #content #contDire div.videoDire iframe{
+	width:355px;
+	height:217px;
+}
+
+
+#addDepartamento textarea{
+	width:330px;
+	height:100px;	
+}
+
+#addFuncionario textarea{
+	width:330px;
+	height:100px;	
+}
+
+#addFuncionario input.func{
+		width:330px;
+}
+
+#addFuncionario p label{
+	width: 130px;
+	display: inline-table;
+	cursor: text;
+}
+
+#addProfessor label{
+	width: 130px;
+	display: inline-table;
+	cursor: text;
+}
+
+#container #content #texto #box26{
+	margin:0;	
+}
+
+#container #content #foto{
+	margin-top:23px;	
+}
+
+form#addCursos input.maior, form#addProcesso input.maior, form#addInformacao input.maior{
+	width:330px;	
+}
+
+#container-box form#addProcesso label , form#addInformacao label{
+	width: 115px;
+	display: inline-table;
+}
+
+#container #content.pg541 #texto div.blog-post-info-date{
+	margin-top: 7px;	
+}
+
+form#addFale label{
+	width: 130px;
+	display: inline-table;
+}
+
+form#addFale input[type="text"]{
+	width: 200px;
+	border: 1px solid #ccc;
+	padding-left: 10px;	
+}
+
+form#addFale textarea{
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	width: 214px;
+	height: 150px;	
+}
+
+
+

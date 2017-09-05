@@ -1,0 +1,103 @@
+body{
+	font-family: arial, sans-serif;
+	font-size: 10px;
+}
+
+#container{
+	width: 960px;
+	border: 1px #000 solid;
+	margin: 0 auto;
+}
+
+#header{
+	background: center url(../images/bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+}
+
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color: #0B3540;
+}
+
+#menu nav ul{
+	margin: 0px;
+}
+
+#menu nav li{
+	display: inline;
+}
+
+#menu nav a:link, a:visited{
+	color: #F1F0F4;
+	font-size: 2.0em;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+
+#menu nav a:hover, a:active{
+	color: #4E9BA3;
+}
+
+h1{
+	font-size: 2.0em;
+	color: #BF7018;
+	margin: 0;
+}
+
+h2{
+	font-size: 1.2em;
+	color: #396775;
+	margin: 0;
+}
+
+content{
+	width: 70%;
+	float: left;
+	font-size: 1.6em;
+	padding: 20px;
+}
+
+aside{
+	width: 20%;
+	float: left;
+	padding: 20px;
+	font-size: 1.8em;
+}
+
+.clear{
+	clear: both;
+}
+
+#footer{
+	width: 100%;
+	height: 40px;
+	background-color: #396775;
+	color: #FFF;
+	font-size: 1.4em;	
+}
+
+#footer p{
+	padding-left: 40px;
+	line-height: 40px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

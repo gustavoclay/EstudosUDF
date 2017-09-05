@@ -1,0 +1,48 @@
+LP1 - 9 - lista Fixação Ponteiros
+ALUNO: Gustavo Clay Do Nascimento Lima
+RGM: 15588921
+============================================
+Respostas:
+
+1-
+
+a) 5 5
+
+b) 5 7 7
+
+c) 3 2
+
+d) 37 - 2 - 38 - B
+
+
+2-
+
+a)
+
+P++ = incrementa a variavel P
+
+(*p)++ = incrementa o valor apontado por p
+
+*(p++) = o incremento é realizado no conteúdo do ponteiro 
+
+
+b)
+*(p+10);?
+está usando o conteudo do ponteiro 10 posições adiante;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

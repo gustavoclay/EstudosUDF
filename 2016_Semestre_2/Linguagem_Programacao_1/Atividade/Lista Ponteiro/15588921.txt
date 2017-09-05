@@ -1,0 +1,99 @@
+NOME: GUSTAVO CLAY DO NASCIMENTO LIMA
+RGM: 15588921
+
+============================11-Lista Exercicio Funcoes Referencia  
+
+1)
+a) 25  2293316 2293316 25 50 2293312
+
+b)
+25 - conteudo da variavel a
+2293316 - conteudo do ponteiro pa
+2293316 - endereço de memoria da varavel a
+25 - conteudo apontado pelo ponteiro pa
+50 - conteudo da variavel b
+2293312 - endereço de memoria de b
+
+
+
+
+
+
+
+
+2)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+	char C;
+	char *P;
+	
+	C='A';
+	P=&C;	
+	
+	printf("%d - %d - %c - %c", &C, &P, P, *P);
+	
+	return 0;
+}
+
+o que é impresso: 
+
+2293327 - 2293312 - O - A
+--------------------------------
+Process exited after 0.1526 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
+
+
+
+
+
+
+3)
+
+20 10
+
+
+
+
+
+
+
+4)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void Swap (int *a,int *b){
+	int temp;
+	temp=*a;
+	*a=*b;
+	*b=temp;
+	}
+
+int main(void){
+	int	a=1,b=2,c=3,d=4;
+	int *A,*B,*C,*D;
+	
+	A=&a;
+	B=&b;
+	C=&c;
+	D=&d;
+	
+	Swap(A, B);
+	Swap(C, D);
+	
+	printf("%d %d %d %d - %d %d %d %d",a,b,c,d,*A,*B,*C,*D);
+	return 0;
+}
+o que é impresso: 
+2 1 4 3 - 2 1 4 3
+--------------------------------
+Process exited after 0.1452 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
+
+
+
+
+
+5)

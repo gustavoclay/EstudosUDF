@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1462940879 source:/home/gustavo/workspace/CadastroAluno3/CadastroAluno/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

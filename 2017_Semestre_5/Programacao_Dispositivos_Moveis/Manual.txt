@@ -1,0 +1,25 @@
+1.       Instale o Node.js (ultima versão)
+2.       Instale o JDK do JAVA (ultima versão)
+3.       Em variáveis de ambiente, configure a variável JAVA_HOME com o caminho do JDK (Ex.: C:\Program Files\Java\jdk1.8.0_131)
+4.       Na variável de ambiente PATH, acrescente ao final %JAVA_HOME%\bin
+5.       Baixe o Apache Ant (ultima versão)
+6.       Descompacte o Apache Ant no C:\ 
+7.       Na variável de ambiente PATH, acrescente ao final C:\apache-ant-1.10.1\bin
+8.       Instale o Android Studio (E configure a pasta do SDK em um local de comum acesso a qualquer perfil)
+9.       Atualize o SDK até a ultima versão do Android disponível
+10.   	Nas variáveis de ambiente configure a variável ANDROID_HOME com o caminho do SDK instalado pelo Android Studio (Ex.: C: \android\android-sdk)
+11.   Na variável de ambiente PATH, acrescente ao final %ANDROID_HOME%\tools
+12.   Na variável de ambiente PATH, acrescente ao final %ANDROID_HOME%\platform-tools
+13.   Baixe o Atom (ultima versão)
+14.   Descompacte o Atom (E configure a pasta do programa em um local de comum acesso a qualquer perfil)
+15.   Com o NodeJS e Git instalado, vamos instalar o Cordova e o Ionic:
+16. Configurar proxy para o cordova e Ionic
+npm config set proxy http://179.10.0.17:8083
+	Abra um terminal de linha de comando (CMD no Windows)
+	Certifique-se de logar com administrador da máquina
+	Digite o comando: npm install -g cordova ionic
+	Para verificar a instalação, digite: ionic --version
+
+
+
+

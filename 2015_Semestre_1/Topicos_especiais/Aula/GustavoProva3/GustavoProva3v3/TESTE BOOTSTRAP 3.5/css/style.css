@@ -1,0 +1,87 @@
+/*
+style css
+*/
+body{
+
+}
+
+/*Menu principal*/
+#menu_principal{
+	margin: 0 auto;
+
+}
+
+#menu_principal .container-fluid{
+	margin: 0 auto;
+
+}
+
+#menu_principal .navbar-header{
+
+}
+
+#menu_principal .navbar{
+
+}
+
+#menu_principal .icone_menu{
+	margin-left: 20px;
+	margin-top: -15px;
+}
+
+
+/*Container geral Conteudo*/
+#conteudo{
+	background-color: white;
+
+}
+
+/*slide*/
+#slide-udf{
+	background-color: #ccc;
+}
+
+#carousel-udf{
+
+}
+
+/*Menu secundario*/
+#menu_secundario{
+	background-color: ;
+
+}
+
+/*destaques*/
+#titulo_destaques .titulo_principal{
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#destaques{
+	padding: 20px;
+	text-align: center;
+}
+
+
+/*mais*/
+#mais{
+	padding: 20px;
+	text-align: center;
+}
+
+/*noticias*/
+#row .noticias{
+	padding: 20px;
+}
+
+.featurette-divider {
+  margin: 50px 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+

@@ -1,0 +1,77 @@
+/*
+style css
+*/
+body{
+	padding-top: 50px;
+}
+
+
+
+/*Menu principal*/
+#menu_principal{
+	float: left;
+}
+
+#navbar-header{
+
+}
+
+#navbar{
+
+}
+
+.icone_menu{
+	margin-left: 20px;
+	margin-top: -15px;
+}
+
+
+/*Container geral Conteudo*/
+#conteudo{
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+	height: 90%;
+	float: left;
+
+}
+
+/*Menu secundario*/
+#menu_secundario{
+	background-color: blue;
+
+}
+
+/*slide*/
+#slide-udf{
+	background-color: #ccc;
+}
+
+#carousel-udf{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+#banner{
+	width: 100%;
+	height: 10px;
+}
+
+/*destaques*/
+#destaques{
+	padding: 20px;
+	text-align: center;
+}
+
+/*mais*/
+#mais{
+	padding: 20px;
+	text-align: center;
+}
+
+/*noticias*/
+#noticias{
+	padding: 20px;
+}
+

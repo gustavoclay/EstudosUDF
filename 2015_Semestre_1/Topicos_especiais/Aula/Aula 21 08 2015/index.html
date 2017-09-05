@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulários</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<form action="pagina-salvar(*)" method="GET">
+			<p>
+				</b><label for="n">Nome:</label>
+				<input type="text" name="nome" id="n" required/>
+			</p>
+			<p>
+				<label for="i">Idade:</label>
+				<input type="number" name="idade" id="i" required/>
+			</p>
+			<p>
+				<label for="e">Email:</label>
+				<input type="email" name="email" id="e" required/>
+			</p>
+			<p>
+				<label for="data">Data:</label>
+				<input type="date" name="data" id="d" required/>
+			</p>
+			<p>
+				<label for="s">Sexo:</label>
+				<input type="radio" name="sexo" id="m" value="m" />M
+				<input type="radio" name="sexo" id="F" value="f" />F
+			</p>
+			<p>
+				<label for="i">Interesses:</label>
+				<input type="checkbox" name="int" id="m" value="musica" />Música
+				<input type="checkbox" name="int" id="c" value="cultura" />Cultura
+				<input type="checkbox" name="int" id="e" value="esporte" />Esporte
+				<input type="checkbox" name="int" id="l" value="lazer" />Lazer
+			</p>
+			<p>
+			<label for="uf">UF</label>
+			<select name="uf">
+				<option value="DF">DF</option>
+				<option value="GO">GO</option>
+				<option value="MS">MS</option>
+				<option value="MT">MT</option>
+			</select>
+			<p>
+				<label for="arq">Aexo:</label>
+				<input type="file" name"arq" id"arq" required />
+			</p>
+			<p>
+				<label for="msn">Mensagem:</label>
+				<textarea name="msn" id"msn" cols="20" placeholder="Digite seu texto aqui" required>
+				</textarea>
+			</p>
+			<p>
+				<button type="submit">Enviar</button>
+				<button type="reset">limpar</button>
+			</p>
+		</form>
+	</body>
+</html>
